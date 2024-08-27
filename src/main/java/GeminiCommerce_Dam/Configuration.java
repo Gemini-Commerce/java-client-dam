@@ -13,9 +13,9 @@
 
 package GeminiCommerce_Dam;
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-02-29T16:21:33.115087699Z[Etc/UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-08-27T14:48:09.959308722Z[Etc/UTC]")
 public class Configuration {
-    public static final String VERSION = "1.1.0";
+    public static final String VERSION = "1.2.0";
 
     private static ApiClient defaultApiClient = new ApiClient();
 

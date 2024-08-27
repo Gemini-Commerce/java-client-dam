@@ -52,7 +52,7 @@ import GeminiCommerce_Dam.JSON;
 /**
  * RpcStatus
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-02-29T16:21:33.115087699Z[Etc/UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-08-27T14:48:09.959308722Z[Etc/UTC]")
 public class RpcStatus {
   public static final String SERIALIZED_NAME_CODE = "code";
   @SerializedName(SERIALIZED_NAME_CODE)

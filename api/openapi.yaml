@@ -59,6 +59,8 @@ paths:
               schema:
                 $ref: '#/components/schemas/rpcStatus'
           description: An unexpected error response.
+      security:
+      - standardAuthorization: []
       summary: Batch Upload Assets
       tags:
       - Basic Operations
@@ -106,6 +108,8 @@ paths:
               schema:
                 $ref: '#/components/schemas/rpcStatus'
           description: An unexpected error response.
+      security:
+      - standardAuthorization: []
       summary: Create Asset
       tags:
       - Basic Operations
@@ -153,6 +157,8 @@ paths:
               schema:
                 $ref: '#/components/schemas/rpcStatus'
           description: An unexpected error response.
+      security:
+      - standardAuthorization: []
       summary: Get Asset By Code
       tags:
       - Basic Operations
@@ -200,6 +206,8 @@ paths:
               schema:
                 $ref: '#/components/schemas/rpcStatus'
           description: An unexpected error response.
+      security:
+      - standardAuthorization: []
       summary: List Assets
       tags:
       - Basic Operations
@@ -247,6 +255,8 @@ paths:
               schema:
                 $ref: '#/components/schemas/rpcStatus'
           description: An unexpected error response.
+      security:
+      - standardAuthorization: []
       summary: List Assets By Codes
       tags:
       - Basic Operations
@@ -294,6 +304,8 @@ paths:
               schema:
                 $ref: '#/components/schemas/rpcStatus'
           description: An unexpected error response.
+      security:
+      - standardAuthorization: []
       summary: List Assets By Ids
       tags:
       - Basic Operations
@@ -341,6 +353,8 @@ paths:
               schema:
                 $ref: '#/components/schemas/rpcStatus'
           description: An unexpected error response.
+      security:
+      - standardAuthorization: []
       summary: Update Asset
       tags:
       - Basic Operations
@@ -388,6 +402,8 @@ paths:
               schema:
                 $ref: '#/components/schemas/rpcStatus'
           description: An unexpected error response.
+      security:
+      - standardAuthorization: []
       summary: Batch Upload Assets
       tags:
       - Basic Operations
@@ -435,6 +451,8 @@ paths:
               schema:
                 $ref: '#/components/schemas/rpcStatus'
           description: An unexpected error response.
+      security:
+      - standardAuthorization: []
       summary: Create Asset
       tags:
       - Basic Operations
@@ -482,6 +500,8 @@ paths:
               schema:
                 $ref: '#/components/schemas/rpcStatus'
           description: An unexpected error response.
+      security:
+      - standardAuthorization: []
       summary: Get Asset By Code
       tags:
       - Basic Operations
@@ -529,6 +549,8 @@ paths:
               schema:
                 $ref: '#/components/schemas/rpcStatus'
           description: An unexpected error response.
+      security:
+      - standardAuthorization: []
       summary: List Assets
       tags:
       - Basic Operations
@@ -576,6 +598,8 @@ paths:
               schema:
                 $ref: '#/components/schemas/rpcStatus'
           description: An unexpected error response.
+      security:
+      - standardAuthorization: []
       summary: List Assets By Codes
       tags:
       - Basic Operations
@@ -623,6 +647,8 @@ paths:
               schema:
                 $ref: '#/components/schemas/rpcStatus'
           description: An unexpected error response.
+      security:
+      - standardAuthorization: []
       summary: List Assets By Ids
       tags:
       - Basic Operations
@@ -670,6 +696,8 @@ paths:
               schema:
                 $ref: '#/components/schemas/rpcStatus'
           description: An unexpected error response.
+      security:
+      - standardAuthorization: []
       summary: Update Asset
       tags:
       - Basic Operations
@@ -1015,14 +1043,8 @@ components:
           type: array
       type: object
   securitySchemes:
-    Authorization:
-      in: header
-      name: Authorization
-      type: apiKey
     standardAuthorization:
-      flows:
-        implicit:
-          scopes: {}
+      flows: {}
       type: oauth2
 x-original-swagger-version: "2.0"
 

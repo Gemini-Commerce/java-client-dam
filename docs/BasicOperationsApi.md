@@ -41,12 +41,6 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://dam.api.gogemini.io");
     
-    // Configure API key authorization: Authorization
-    ApiKeyAuth Authorization = (ApiKeyAuth) defaultClient.getAuthentication("Authorization");
-    Authorization.setApiKey("YOUR API KEY");
-    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-    //Authorization.setApiKeyPrefix("Token");
-
     BasicOperationsApi apiInstance = new BasicOperationsApi(defaultClient);
     DamBatchUploadAssetsRequest body = new DamBatchUploadAssetsRequest(); // DamBatchUploadAssetsRequest | 
     try {
@@ -75,7 +69,7 @@ public class Example {
 
 ### Authorization
 
-[Authorization](../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -111,12 +105,6 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://dam.api.gogemini.io");
     
-    // Configure API key authorization: Authorization
-    ApiKeyAuth Authorization = (ApiKeyAuth) defaultClient.getAuthentication("Authorization");
-    Authorization.setApiKey("YOUR API KEY");
-    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-    //Authorization.setApiKeyPrefix("Token");
-
     BasicOperationsApi apiInstance = new BasicOperationsApi(defaultClient);
     DamBatchUploadAssetsRequest body = new DamBatchUploadAssetsRequest(); // DamBatchUploadAssetsRequest | 
     try {
@@ -145,7 +133,7 @@ public class Example {
 
 ### Authorization
 
-[Authorization](../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -181,12 +169,6 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://dam.api.gogemini.io");
     
-    // Configure API key authorization: Authorization
-    ApiKeyAuth Authorization = (ApiKeyAuth) defaultClient.getAuthentication("Authorization");
-    Authorization.setApiKey("YOUR API KEY");
-    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-    //Authorization.setApiKeyPrefix("Token");
-
     BasicOperationsApi apiInstance = new BasicOperationsApi(defaultClient);
     DamCreateAssetRequest body = new DamCreateAssetRequest(); // DamCreateAssetRequest | 
     try {
@@ -215,7 +197,7 @@ public class Example {
 
 ### Authorization
 
-[Authorization](../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -251,12 +233,6 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://dam.api.gogemini.io");
     
-    // Configure API key authorization: Authorization
-    ApiKeyAuth Authorization = (ApiKeyAuth) defaultClient.getAuthentication("Authorization");
-    Authorization.setApiKey("YOUR API KEY");
-    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-    //Authorization.setApiKeyPrefix("Token");
-
     BasicOperationsApi apiInstance = new BasicOperationsApi(defaultClient);
     DamCreateAssetRequest body = new DamCreateAssetRequest(); // DamCreateAssetRequest | 
     try {
@@ -285,7 +261,7 @@ public class Example {
 
 ### Authorization
 
-[Authorization](../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -321,12 +297,6 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://dam.api.gogemini.io");
     
-    // Configure API key authorization: Authorization
-    ApiKeyAuth Authorization = (ApiKeyAuth) defaultClient.getAuthentication("Authorization");
-    Authorization.setApiKey("YOUR API KEY");
-    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-    //Authorization.setApiKeyPrefix("Token");
-
     BasicOperationsApi apiInstance = new BasicOperationsApi(defaultClient);
     DamGetAssetByCodeRequest body = new DamGetAssetByCodeRequest(); // DamGetAssetByCodeRequest | 
     try {
@@ -355,7 +325,7 @@ public class Example {
 
 ### Authorization
 
-[Authorization](../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -391,12 +361,6 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://dam.api.gogemini.io");
     
-    // Configure API key authorization: Authorization
-    ApiKeyAuth Authorization = (ApiKeyAuth) defaultClient.getAuthentication("Authorization");
-    Authorization.setApiKey("YOUR API KEY");
-    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-    //Authorization.setApiKeyPrefix("Token");
-
     BasicOperationsApi apiInstance = new BasicOperationsApi(defaultClient);
     DamGetAssetByCodeRequest body = new DamGetAssetByCodeRequest(); // DamGetAssetByCodeRequest | 
     try {
@@ -425,7 +389,7 @@ public class Example {
 
 ### Authorization
 
-[Authorization](../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -461,12 +425,6 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://dam.api.gogemini.io");
     
-    // Configure API key authorization: Authorization
-    ApiKeyAuth Authorization = (ApiKeyAuth) defaultClient.getAuthentication("Authorization");
-    Authorization.setApiKey("YOUR API KEY");
-    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-    //Authorization.setApiKeyPrefix("Token");
-
     BasicOperationsApi apiInstance = new BasicOperationsApi(defaultClient);
     DamListAssetsRequest body = new DamListAssetsRequest(); // DamListAssetsRequest | 
     try {
@@ -495,7 +453,7 @@ public class Example {
 
 ### Authorization
 
-[Authorization](../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -531,12 +489,6 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://dam.api.gogemini.io");
     
-    // Configure API key authorization: Authorization
-    ApiKeyAuth Authorization = (ApiKeyAuth) defaultClient.getAuthentication("Authorization");
-    Authorization.setApiKey("YOUR API KEY");
-    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-    //Authorization.setApiKeyPrefix("Token");
-
     BasicOperationsApi apiInstance = new BasicOperationsApi(defaultClient);
     DamListAssetsByCodesRequest body = new DamListAssetsByCodesRequest(); // DamListAssetsByCodesRequest | 
     try {
@@ -565,7 +517,7 @@ public class Example {
 
 ### Authorization
 
-[Authorization](../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -601,12 +553,6 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://dam.api.gogemini.io");
     
-    // Configure API key authorization: Authorization
-    ApiKeyAuth Authorization = (ApiKeyAuth) defaultClient.getAuthentication("Authorization");
-    Authorization.setApiKey("YOUR API KEY");
-    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-    //Authorization.setApiKeyPrefix("Token");
-
     BasicOperationsApi apiInstance = new BasicOperationsApi(defaultClient);
     DamListAssetsByCodesRequest body = new DamListAssetsByCodesRequest(); // DamListAssetsByCodesRequest | 
     try {
@@ -635,7 +581,7 @@ public class Example {
 
 ### Authorization
 
-[Authorization](../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -671,12 +617,6 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://dam.api.gogemini.io");
     
-    // Configure API key authorization: Authorization
-    ApiKeyAuth Authorization = (ApiKeyAuth) defaultClient.getAuthentication("Authorization");
-    Authorization.setApiKey("YOUR API KEY");
-    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-    //Authorization.setApiKeyPrefix("Token");
-
     BasicOperationsApi apiInstance = new BasicOperationsApi(defaultClient);
     DamListAssetsByIdsRequest body = new DamListAssetsByIdsRequest(); // DamListAssetsByIdsRequest | 
     try {
@@ -705,7 +645,7 @@ public class Example {
 
 ### Authorization
 
-[Authorization](../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -741,12 +681,6 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://dam.api.gogemini.io");
     
-    // Configure API key authorization: Authorization
-    ApiKeyAuth Authorization = (ApiKeyAuth) defaultClient.getAuthentication("Authorization");
-    Authorization.setApiKey("YOUR API KEY");
-    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-    //Authorization.setApiKeyPrefix("Token");
-
     BasicOperationsApi apiInstance = new BasicOperationsApi(defaultClient);
     DamListAssetsByIdsRequest body = new DamListAssetsByIdsRequest(); // DamListAssetsByIdsRequest | 
     try {
@@ -775,7 +709,7 @@ public class Example {
 
 ### Authorization
 
-[Authorization](../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -811,12 +745,6 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://dam.api.gogemini.io");
     
-    // Configure API key authorization: Authorization
-    ApiKeyAuth Authorization = (ApiKeyAuth) defaultClient.getAuthentication("Authorization");
-    Authorization.setApiKey("YOUR API KEY");
-    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-    //Authorization.setApiKeyPrefix("Token");
-
     BasicOperationsApi apiInstance = new BasicOperationsApi(defaultClient);
     DamListAssetsRequest body = new DamListAssetsRequest(); // DamListAssetsRequest | 
     try {
@@ -845,7 +773,7 @@ public class Example {
 
 ### Authorization
 
-[Authorization](../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -881,12 +809,6 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://dam.api.gogemini.io");
     
-    // Configure API key authorization: Authorization
-    ApiKeyAuth Authorization = (ApiKeyAuth) defaultClient.getAuthentication("Authorization");
-    Authorization.setApiKey("YOUR API KEY");
-    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-    //Authorization.setApiKeyPrefix("Token");
-
     BasicOperationsApi apiInstance = new BasicOperationsApi(defaultClient);
     DamUpdateAssetRequest body = new DamUpdateAssetRequest(); // DamUpdateAssetRequest | 
     try {
@@ -915,7 +837,7 @@ public class Example {
 
 ### Authorization
 
-[Authorization](../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -951,12 +873,6 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://dam.api.gogemini.io");
     
-    // Configure API key authorization: Authorization
-    ApiKeyAuth Authorization = (ApiKeyAuth) defaultClient.getAuthentication("Authorization");
-    Authorization.setApiKey("YOUR API KEY");
-    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-    //Authorization.setApiKeyPrefix("Token");
-
     BasicOperationsApi apiInstance = new BasicOperationsApi(defaultClient);
     DamUpdateAssetRequest body = new DamUpdateAssetRequest(); // DamUpdateAssetRequest | 
     try {
@@ -985,7 +901,7 @@ public class Example {
 
 ### Authorization
 
-[Authorization](../README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
