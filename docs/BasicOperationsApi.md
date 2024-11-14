@@ -29,11 +29,11 @@ Batch Upload Assets
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Dam.ApiClient;
-import GeminiCommerce_Dam.ApiException;
-import GeminiCommerce_Dam.Configuration;
-import GeminiCommerce_Dam.auth.*;
-import GeminiCommerce_Dam.models.*;
+import GeminiCommerce.Dam.ApiClient;
+import GeminiCommerce.Dam.ApiException;
+import GeminiCommerce.Dam.Configuration;
+import GeminiCommerce.Dam.auth.*;
+import GeminiCommerce.Dam.models.*;
 import org.openapitools.client.api.BasicOperationsApi;
 
 public class Example {
@@ -93,11 +93,11 @@ Batch Upload Assets
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Dam.ApiClient;
-import GeminiCommerce_Dam.ApiException;
-import GeminiCommerce_Dam.Configuration;
-import GeminiCommerce_Dam.auth.*;
-import GeminiCommerce_Dam.models.*;
+import GeminiCommerce.Dam.ApiClient;
+import GeminiCommerce.Dam.ApiException;
+import GeminiCommerce.Dam.Configuration;
+import GeminiCommerce.Dam.auth.*;
+import GeminiCommerce.Dam.models.*;
 import org.openapitools.client.api.BasicOperationsApi;
 
 public class Example {
@@ -157,11 +157,11 @@ Create Asset
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Dam.ApiClient;
-import GeminiCommerce_Dam.ApiException;
-import GeminiCommerce_Dam.Configuration;
-import GeminiCommerce_Dam.auth.*;
-import GeminiCommerce_Dam.models.*;
+import GeminiCommerce.Dam.ApiClient;
+import GeminiCommerce.Dam.ApiException;
+import GeminiCommerce.Dam.Configuration;
+import GeminiCommerce.Dam.auth.*;
+import GeminiCommerce.Dam.models.*;
 import org.openapitools.client.api.BasicOperationsApi;
 
 public class Example {
@@ -221,11 +221,11 @@ Create Asset
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Dam.ApiClient;
-import GeminiCommerce_Dam.ApiException;
-import GeminiCommerce_Dam.Configuration;
-import GeminiCommerce_Dam.auth.*;
-import GeminiCommerce_Dam.models.*;
+import GeminiCommerce.Dam.ApiClient;
+import GeminiCommerce.Dam.ApiException;
+import GeminiCommerce.Dam.Configuration;
+import GeminiCommerce.Dam.auth.*;
+import GeminiCommerce.Dam.models.*;
 import org.openapitools.client.api.BasicOperationsApi;
 
 public class Example {
@@ -285,11 +285,11 @@ Get Asset By Code
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Dam.ApiClient;
-import GeminiCommerce_Dam.ApiException;
-import GeminiCommerce_Dam.Configuration;
-import GeminiCommerce_Dam.auth.*;
-import GeminiCommerce_Dam.models.*;
+import GeminiCommerce.Dam.ApiClient;
+import GeminiCommerce.Dam.ApiException;
+import GeminiCommerce.Dam.Configuration;
+import GeminiCommerce.Dam.auth.*;
+import GeminiCommerce.Dam.models.*;
 import org.openapitools.client.api.BasicOperationsApi;
 
 public class Example {
@@ -349,11 +349,11 @@ Get Asset By Code
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Dam.ApiClient;
-import GeminiCommerce_Dam.ApiException;
-import GeminiCommerce_Dam.Configuration;
-import GeminiCommerce_Dam.auth.*;
-import GeminiCommerce_Dam.models.*;
+import GeminiCommerce.Dam.ApiClient;
+import GeminiCommerce.Dam.ApiException;
+import GeminiCommerce.Dam.Configuration;
+import GeminiCommerce.Dam.auth.*;
+import GeminiCommerce.Dam.models.*;
 import org.openapitools.client.api.BasicOperationsApi;
 
 public class Example {
@@ -413,11 +413,11 @@ List Assets
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Dam.ApiClient;
-import GeminiCommerce_Dam.ApiException;
-import GeminiCommerce_Dam.Configuration;
-import GeminiCommerce_Dam.auth.*;
-import GeminiCommerce_Dam.models.*;
+import GeminiCommerce.Dam.ApiClient;
+import GeminiCommerce.Dam.ApiException;
+import GeminiCommerce.Dam.Configuration;
+import GeminiCommerce.Dam.auth.*;
+import GeminiCommerce.Dam.models.*;
 import org.openapitools.client.api.BasicOperationsApi;
 
 public class Example {
@@ -477,11 +477,11 @@ List Assets By Codes
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Dam.ApiClient;
-import GeminiCommerce_Dam.ApiException;
-import GeminiCommerce_Dam.Configuration;
-import GeminiCommerce_Dam.auth.*;
-import GeminiCommerce_Dam.models.*;
+import GeminiCommerce.Dam.ApiClient;
+import GeminiCommerce.Dam.ApiException;
+import GeminiCommerce.Dam.Configuration;
+import GeminiCommerce.Dam.auth.*;
+import GeminiCommerce.Dam.models.*;
 import org.openapitools.client.api.BasicOperationsApi;
 
 public class Example {
@@ -541,11 +541,11 @@ List Assets By Codes
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Dam.ApiClient;
-import GeminiCommerce_Dam.ApiException;
-import GeminiCommerce_Dam.Configuration;
-import GeminiCommerce_Dam.auth.*;
-import GeminiCommerce_Dam.models.*;
+import GeminiCommerce.Dam.ApiClient;
+import GeminiCommerce.Dam.ApiException;
+import GeminiCommerce.Dam.Configuration;
+import GeminiCommerce.Dam.auth.*;
+import GeminiCommerce.Dam.models.*;
 import org.openapitools.client.api.BasicOperationsApi;
 
 public class Example {
@@ -605,11 +605,11 @@ List Assets By Ids
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Dam.ApiClient;
-import GeminiCommerce_Dam.ApiException;
-import GeminiCommerce_Dam.Configuration;
-import GeminiCommerce_Dam.auth.*;
-import GeminiCommerce_Dam.models.*;
+import GeminiCommerce.Dam.ApiClient;
+import GeminiCommerce.Dam.ApiException;
+import GeminiCommerce.Dam.Configuration;
+import GeminiCommerce.Dam.auth.*;
+import GeminiCommerce.Dam.models.*;
 import org.openapitools.client.api.BasicOperationsApi;
 
 public class Example {
@@ -669,11 +669,11 @@ List Assets By Ids
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Dam.ApiClient;
-import GeminiCommerce_Dam.ApiException;
-import GeminiCommerce_Dam.Configuration;
-import GeminiCommerce_Dam.auth.*;
-import GeminiCommerce_Dam.models.*;
+import GeminiCommerce.Dam.ApiClient;
+import GeminiCommerce.Dam.ApiException;
+import GeminiCommerce.Dam.Configuration;
+import GeminiCommerce.Dam.auth.*;
+import GeminiCommerce.Dam.models.*;
 import org.openapitools.client.api.BasicOperationsApi;
 
 public class Example {
@@ -733,11 +733,11 @@ List Assets
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Dam.ApiClient;
-import GeminiCommerce_Dam.ApiException;
-import GeminiCommerce_Dam.Configuration;
-import GeminiCommerce_Dam.auth.*;
-import GeminiCommerce_Dam.models.*;
+import GeminiCommerce.Dam.ApiClient;
+import GeminiCommerce.Dam.ApiException;
+import GeminiCommerce.Dam.Configuration;
+import GeminiCommerce.Dam.auth.*;
+import GeminiCommerce.Dam.models.*;
 import org.openapitools.client.api.BasicOperationsApi;
 
 public class Example {
@@ -797,11 +797,11 @@ Update Asset
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Dam.ApiClient;
-import GeminiCommerce_Dam.ApiException;
-import GeminiCommerce_Dam.Configuration;
-import GeminiCommerce_Dam.auth.*;
-import GeminiCommerce_Dam.models.*;
+import GeminiCommerce.Dam.ApiClient;
+import GeminiCommerce.Dam.ApiException;
+import GeminiCommerce.Dam.Configuration;
+import GeminiCommerce.Dam.auth.*;
+import GeminiCommerce.Dam.models.*;
 import org.openapitools.client.api.BasicOperationsApi;
 
 public class Example {
@@ -861,11 +861,11 @@ Update Asset
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Dam.ApiClient;
-import GeminiCommerce_Dam.ApiException;
-import GeminiCommerce_Dam.Configuration;
-import GeminiCommerce_Dam.auth.*;
-import GeminiCommerce_Dam.models.*;
+import GeminiCommerce.Dam.ApiClient;
+import GeminiCommerce.Dam.ApiException;
+import GeminiCommerce.Dam.Configuration;
+import GeminiCommerce.Dam.auth.*;
+import GeminiCommerce.Dam.models.*;
 import org.openapitools.client.api.BasicOperationsApi;
 
 public class Example {

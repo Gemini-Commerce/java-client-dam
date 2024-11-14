@@ -9,7 +9,7 @@ Name | Type | Description | Notes
 **tenantId**| **String** |   |
 **type**| [**DamAssetType**](DamAssetType.md) |  for more information please, see Model/DamAssetType.php  | [default to DamAssetType.UNKNOWN]
 **code**| **String** |   |
-**metadata**| [**List<AssetMetadata>**](AssetMetadata.md) |   | [optional]
+**metadata**| [**List<AssetMetadata>**](AssetMetadata.md) |   | [optional] [default to new ArrayList<>()]
 **origin**| [**DamAssetOrigin**](DamAssetOrigin.md) |   |
 
 

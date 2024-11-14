@@ -37,19 +37,18 @@ import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
 import java.io.IOException;
 
-import java.lang.reflect.Type;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import GeminiCommerce_Dam.JSON;
+import GeminiCommerce.Dam.JSON;
 
 /**
  * DamGetAssetByCodeRequest
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-08-27T14:48:09.959308722Z[Etc/UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-11-14T11:51:54.141952959Z[Etc/UTC]", comments = "Generator version: 7.9.0")
 public class DamGetAssetByCodeRequest {
   public static final String SERIALIZED_NAME_TENANT_ID = "tenantId";
   @SerializedName(SERIALIZED_NAME_TENANT_ID)
@@ -67,10 +66,10 @@ public class DamGetAssetByCodeRequest {
     return this;
   }
 
-   /**
+  /**
    * Get tenantId
    * @return tenantId
-  **/
+   */
   @javax.annotation.Nonnull
   public String getTenantId() {
     return tenantId;
@@ -86,10 +85,10 @@ public class DamGetAssetByCodeRequest {
     return this;
   }
 
-   /**
+  /**
    * Get code
    * @return code
-  **/
+   */
   @javax.annotation.Nonnull
   public String getCode() {
     return code;
@@ -99,6 +98,50 @@ public class DamGetAssetByCodeRequest {
     this.code = code;
   }
 
+  /**
+   * A container for additional, undeclared properties.
+   * This is a holder for any undeclared properties as specified with
+   * the 'additionalProperties' keyword in the OAS document.
+   */
+  private Map<String, Object> additionalProperties;
+
+  /**
+   * Set the additional (undeclared) property with the specified name and value.
+   * If the property does not already exist, create it otherwise replace it.
+   *
+   * @param key name of the property
+   * @param value value of the property
+   * @return the DamGetAssetByCodeRequest instance itself
+   */
+  public DamGetAssetByCodeRequest putAdditionalProperty(String key, Object value) {
+    if (this.additionalProperties == null) {
+        this.additionalProperties = new HashMap<String, Object>();
+    }
+    this.additionalProperties.put(key, value);
+    return this;
+  }
+
+  /**
+   * Return the additional (undeclared) property.
+   *
+   * @return a map of objects
+   */
+  public Map<String, Object> getAdditionalProperties() {
+    return additionalProperties;
+  }
+
+  /**
+   * Return the additional (undeclared) property with the specified name.
+   *
+   * @param key name of the property
+   * @return an object
+   */
+  public Object getAdditionalProperty(String key) {
+    if (this.additionalProperties == null) {
+        return null;
+    }
+    return this.additionalProperties.get(key);
+  }
 
 
   @Override
@@ -111,12 +154,13 @@ public class DamGetAssetByCodeRequest {
     }
     DamGetAssetByCodeRequest damGetAssetByCodeRequest = (DamGetAssetByCodeRequest) o;
     return Objects.equals(this.tenantId, damGetAssetByCodeRequest.tenantId) &&
-        Objects.equals(this.code, damGetAssetByCodeRequest.code);
+        Objects.equals(this.code, damGetAssetByCodeRequest.code)&&
+        Objects.equals(this.additionalProperties, damGetAssetByCodeRequest.additionalProperties);
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(tenantId, code);
+    return Objects.hash(tenantId, code, additionalProperties);
   }
 
   @Override
@@ -125,6 +169,7 @@ public class DamGetAssetByCodeRequest {
     sb.append("class DamGetAssetByCodeRequest {\n");
     sb.append("    tenantId: ").append(toIndentedString(tenantId)).append("\n");
     sb.append("    code: ").append(toIndentedString(code)).append("\n");
+    sb.append("    additionalProperties: ").append(toIndentedString(additionalProperties)).append("\n");
     sb.append("}");
     return sb.toString();
   }
@@ -156,24 +201,16 @@ public class DamGetAssetByCodeRequest {
     openapiRequiredFields.add("code");
   }
 
- /**
-  * Validates the JSON Element and throws an exception if issues found
-  *
-  * @param jsonElement JSON Element
-  * @throws IOException if the JSON Element is invalid with respect to DamGetAssetByCodeRequest
-  */
+  /**
+   * Validates the JSON Element and throws an exception if issues found
+   *
+   * @param jsonElement JSON Element
+   * @throws IOException if the JSON Element is invalid with respect to DamGetAssetByCodeRequest
+   */
   public static void validateJsonElement(JsonElement jsonElement) throws IOException {
       if (jsonElement == null) {
         if (!DamGetAssetByCodeRequest.openapiRequiredFields.isEmpty()) { // has required fields but JSON element is null
           throw new IllegalArgumentException(String.format("The required field(s) %s in DamGetAssetByCodeRequest is not found in the empty JSON string", DamGetAssetByCodeRequest.openapiRequiredFields.toString()));
-        }
-      }
-
-      Set<Map.Entry<String, JsonElement>> entries = jsonElement.getAsJsonObject().entrySet();
-      // check to see if the JSON string contains additional fields
-      for (Map.Entry<String, JsonElement> entry : entries) {
-        if (!DamGetAssetByCodeRequest.openapiFields.contains(entry.getKey())) {
-          throw new IllegalArgumentException(String.format("The field `%s` in the JSON string is not defined in the `DamGetAssetByCodeRequest` properties. JSON: %s", entry.getKey(), jsonElement.toString()));
         }
       }
 
@@ -207,6 +244,28 @@ public class DamGetAssetByCodeRequest {
            @Override
            public void write(JsonWriter out, DamGetAssetByCodeRequest value) throws IOException {
              JsonObject obj = thisAdapter.toJsonTree(value).getAsJsonObject();
+             obj.remove("additionalProperties");
+             // serialize additional properties
+             if (value.getAdditionalProperties() != null) {
+               for (Map.Entry<String, Object> entry : value.getAdditionalProperties().entrySet()) {
+                 if (entry.getValue() instanceof String)
+                   obj.addProperty(entry.getKey(), (String) entry.getValue());
+                 else if (entry.getValue() instanceof Number)
+                   obj.addProperty(entry.getKey(), (Number) entry.getValue());
+                 else if (entry.getValue() instanceof Boolean)
+                   obj.addProperty(entry.getKey(), (Boolean) entry.getValue());
+                 else if (entry.getValue() instanceof Character)
+                   obj.addProperty(entry.getKey(), (Character) entry.getValue());
+                 else {
+                   JsonElement jsonElement = gson.toJsonTree(entry.getValue());
+                   if (jsonElement.isJsonArray()) {
+                     obj.add(entry.getKey(), jsonElement.getAsJsonArray());
+                   } else {
+                     obj.add(entry.getKey(), jsonElement.getAsJsonObject());
+                   }
+                 }
+               }
+             }
              elementAdapter.write(out, obj);
            }
 
@@ -214,29 +273,50 @@ public class DamGetAssetByCodeRequest {
            public DamGetAssetByCodeRequest read(JsonReader in) throws IOException {
              JsonElement jsonElement = elementAdapter.read(in);
              validateJsonElement(jsonElement);
-             return thisAdapter.fromJsonTree(jsonElement);
+             JsonObject jsonObj = jsonElement.getAsJsonObject();
+             // store additional fields in the deserialized instance
+             DamGetAssetByCodeRequest instance = thisAdapter.fromJsonTree(jsonObj);
+             for (Map.Entry<String, JsonElement> entry : jsonObj.entrySet()) {
+               if (!openapiFields.contains(entry.getKey())) {
+                 if (entry.getValue().isJsonPrimitive()) { // primitive type
+                   if (entry.getValue().getAsJsonPrimitive().isString())
+                     instance.putAdditionalProperty(entry.getKey(), entry.getValue().getAsString());
+                   else if (entry.getValue().getAsJsonPrimitive().isNumber())
+                     instance.putAdditionalProperty(entry.getKey(), entry.getValue().getAsNumber());
+                   else if (entry.getValue().getAsJsonPrimitive().isBoolean())
+                     instance.putAdditionalProperty(entry.getKey(), entry.getValue().getAsBoolean());
+                   else
+                     throw new IllegalArgumentException(String.format("The field `%s` has unknown primitive type. Value: %s", entry.getKey(), entry.getValue().toString()));
+                 } else if (entry.getValue().isJsonArray()) {
+                     instance.putAdditionalProperty(entry.getKey(), gson.fromJson(entry.getValue(), List.class));
+                 } else { // JSON object
+                     instance.putAdditionalProperty(entry.getKey(), gson.fromJson(entry.getValue(), HashMap.class));
+                 }
+               }
+             }
+             return instance;
            }
 
        }.nullSafe();
     }
   }
 
- /**
-  * Create an instance of DamGetAssetByCodeRequest given an JSON string
-  *
-  * @param jsonString JSON string
-  * @return An instance of DamGetAssetByCodeRequest
-  * @throws IOException if the JSON string is invalid with respect to DamGetAssetByCodeRequest
-  */
+  /**
+   * Create an instance of DamGetAssetByCodeRequest given an JSON string
+   *
+   * @param jsonString JSON string
+   * @return An instance of DamGetAssetByCodeRequest
+   * @throws IOException if the JSON string is invalid with respect to DamGetAssetByCodeRequest
+   */
   public static DamGetAssetByCodeRequest fromJson(String jsonString) throws IOException {
     return JSON.getGson().fromJson(jsonString, DamGetAssetByCodeRequest.class);
   }
 
- /**
-  * Convert an instance of DamGetAssetByCodeRequest to an JSON string
-  *
-  * @return JSON string
-  */
+  /**
+   * Convert an instance of DamGetAssetByCodeRequest to an JSON string
+   *
+   * @return JSON string
+   */
   public String toJson() {
     return JSON.getGson().toJson(this);
   }

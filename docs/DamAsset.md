@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 **id**| **String** |   | [optional]
 **type**| [**DamAssetType**](DamAssetType.md) |  for more information please, see Model/DamAssetType.php  | [optional] [default to DamAssetType.UNKNOWN]
 **code**| **String** |   | [optional]
-**metadata**| [**List<AssetMetadata>**](AssetMetadata.md) |   | [optional]
+**metadata**| [**List<AssetMetadata>**](AssetMetadata.md) |   | [optional] [default to new ArrayList<>()]
 **grn**| **String** |   | [optional]
 **publicUrl**| **String** |   | [optional]
 

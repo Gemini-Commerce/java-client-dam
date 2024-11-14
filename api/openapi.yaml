@@ -66,7 +66,8 @@ paths:
       - Basic Operations
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /dam.Dam/CreateAsset:
     post:
       operationId: CreateAsset
@@ -115,7 +116,8 @@ paths:
       - Basic Operations
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /dam.Dam/GetAssetByCode:
     post:
       operationId: GetAssetByCode
@@ -164,7 +166,8 @@ paths:
       - Basic Operations
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /dam.Dam/ListAssets:
     post:
       operationId: ListAssets
@@ -213,7 +216,8 @@ paths:
       - Basic Operations
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /dam.Dam/ListAssetsByCodes:
     post:
       operationId: ListAssetsByCodes
@@ -262,7 +266,8 @@ paths:
       - Basic Operations
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /dam.Dam/ListAssetsByIds:
     post:
       operationId: ListAssetsByIds
@@ -311,7 +316,8 @@ paths:
       - Basic Operations
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /dam.Dam/UpdateAsset:
     post:
       operationId: UpdateAsset
@@ -360,7 +366,8 @@ paths:
       - Basic Operations
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /dam/batch_upload_assets:
     post:
       operationId: BatchUploadAssets
@@ -409,7 +416,8 @@ paths:
       - Basic Operations
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /dam/create_asset:
     post:
       operationId: CreateAsset
@@ -458,7 +466,8 @@ paths:
       - Basic Operations
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /dam/get_asset_by_code:
     post:
       operationId: GetAssetByCode
@@ -507,7 +516,8 @@ paths:
       - Basic Operations
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /dam/list_assets:
     post:
       operationId: ListAssets
@@ -556,7 +566,8 @@ paths:
       - Basic Operations
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /dam/list_assets_by_codes:
     post:
       operationId: ListAssetsByCodes
@@ -605,7 +616,8 @@ paths:
       - Basic Operations
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /dam/list_assets_by_ids:
     post:
       operationId: ListAssetsByIds
@@ -654,7 +666,8 @@ paths:
       - Basic Operations
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /dam/update_asset:
     post:
       operationId: UpdateAsset
@@ -703,7 +716,8 @@ paths:
       - Basic Operations
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
 components:
   schemas:
     AssetMetadata:
@@ -760,7 +774,7 @@ components:
         code: code
         publicUrl: publicUrl
         id: id
-        type: null
+        type: UNKNOWN
         updatedAt: 2000-01-23T04:56:07.000+00:00
       properties:
         createdAt:
@@ -881,7 +895,7 @@ components:
           code: code
           publicUrl: publicUrl
           id: id
-          type: null
+          type: UNKNOWN
           updatedAt: 2000-01-23T04:56:07.000+00:00
         - createdAt: 2000-01-23T04:56:07.000+00:00
           metadata:
@@ -893,7 +907,7 @@ components:
           code: code
           publicUrl: publicUrl
           id: id
-          type: null
+          type: UNKNOWN
           updatedAt: 2000-01-23T04:56:07.000+00:00
       properties:
         assets:
@@ -926,7 +940,7 @@ components:
           code: code
           publicUrl: publicUrl
           id: id
-          type: null
+          type: UNKNOWN
           updatedAt: 2000-01-23T04:56:07.000+00:00
         - createdAt: 2000-01-23T04:56:07.000+00:00
           metadata:
@@ -938,7 +952,7 @@ components:
           code: code
           publicUrl: publicUrl
           id: id
-          type: null
+          type: UNKNOWN
           updatedAt: 2000-01-23T04:56:07.000+00:00
       properties:
         assets:
@@ -983,7 +997,7 @@ components:
           code: code
           publicUrl: publicUrl
           id: id
-          type: null
+          type: UNKNOWN
           updatedAt: 2000-01-23T04:56:07.000+00:00
         - createdAt: 2000-01-23T04:56:07.000+00:00
           metadata:
@@ -995,7 +1009,7 @@ components:
           code: code
           publicUrl: publicUrl
           id: id
-          type: null
+          type: UNKNOWN
           updatedAt: 2000-01-23T04:56:07.000+00:00
         nextPageToken: nextPageToken
       properties:
@@ -1026,11 +1040,19 @@ components:
     protobufAny:
       additionalProperties:
         type: object
+      example:
+        '@type': '@type'
       properties:
         '@type':
           type: string
       type: object
     rpcStatus:
+      example:
+        code: 0
+        details:
+        - '@type': '@type'
+        - '@type': '@type'
+        message: message
       properties:
         code:
           format: int32
