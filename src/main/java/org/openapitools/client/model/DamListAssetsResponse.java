@@ -51,7 +51,7 @@ import GeminiCommerce.Dam.JSON;
 /**
  * DamListAssetsResponse
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-11-15T15:32:40.297148766Z[Etc/UTC]", comments = "Generator version: 7.9.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-11-15T16:34:24.907933095Z[Etc/UTC]", comments = "Generator version: 7.9.0")
 public class DamListAssetsResponse {
   public static final String SERIALIZED_NAME_ASSETS = "assets";
   @SerializedName(SERIALIZED_NAME_ASSETS)
