@@ -49,7 +49,7 @@ import GeminiCommerce.Dam.JSON;
 /**
  * DamAssetOrigin
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-11-15T16:34:24.907933095Z[Etc/UTC]", comments = "Generator version: 7.9.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-11-18T16:43:56.323925475Z[Etc/UTC]", comments = "Generator version: 7.9.0")
 public class DamAssetOrigin {
   public static final String SERIALIZED_NAME_URL = "url";
   @SerializedName(SERIALIZED_NAME_URL)

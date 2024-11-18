@@ -730,6 +730,7 @@ components:
         value:
           type: string
       type: object
+      x-golang-getsetvalue-exists: true
     AssetOriginTypes:
       default: EXTERNAL
       enum:
